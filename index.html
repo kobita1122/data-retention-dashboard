@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Data Retention Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Data Retention Policy</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Data Type</th>
+      <th>Retention Period</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody id="policies"></tbody>
+</table>
+
+<button onclick="cleanup()">Run Cleanup</button>
+<p id="msg"></p>
+
+<script src="script.js"></script>
+</body>
+</html>
